@@ -42,7 +42,7 @@ This project is part of the curriculum at 42 and aims to implement an expert sys
 - **Reasoning Visualization:** Provides feedback to explain the answer.
   For instance: "`We know that A is true. Since we know A | B => C, then C is true`".
 
-![Presentation](./assets/screenshot-01.png)
+![Screenshot](./assets/screenshot-01.png)
 
 ## Installation
 
