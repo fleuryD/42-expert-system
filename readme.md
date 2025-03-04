@@ -1,5 +1,7 @@
 # Expert System - École 42
 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="50" height="50"/>
+
 ## Introduction
 
 This project is part of the curriculum at 42 and aims to implement an expert system in **C++** capable of reasoning based on given facts and rules. The system follows a logical evaluation using propositional logic operators.
