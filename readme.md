@@ -4,12 +4,6 @@
 
 This project is part of the curriculum at 42 and aims to implement an expert system in **C++** capable of reasoning based on given facts and rules. The system follows a logical evaluation using propositional logic operators.
 
-## Status:
-
-Validé le xxxxxxxx/xxxxxxx/2025
-
-Note: xxxxxxxxxxxxx% ✅
-
 ## Features
 
 - Parses a set of rules and facts from an input file with the following format:
@@ -62,14 +56,15 @@ make
 
 ```bash
 
-   ./expert ./maps/02.txt	# Open a file:
-   ./expert -f [id]	# or open a file with the assistant:
+   ./expert ./maps/02.txt	# Open a file (expert.exe on Windows)
+   ./expert -f [id]	# or open a file with the assistant (expert.exe on Windows)
 
    -i abcd		# Define the InitialFacts
 ```
 
 ## Requirements
 
+- Linux or Windows
 - C++23 or later
 - A compiler such as `g++`
 
