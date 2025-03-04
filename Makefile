@@ -1,8 +1,6 @@
-
-# !!!!!!!!!!!!    VERSION 	UNIVERSAL		WINDOWS + LINUX     !!!!!!!!!!!!
-
 # Nom de l'exécutable
 TARGET = expert
+
 
 
 # Détection de l'OS
