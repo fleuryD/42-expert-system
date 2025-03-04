@@ -1,5 +1,5 @@
 T         =>  !E
-F         =>  U # F n'apparait jamais a droite donc F=FALSE et U=UNDETERMINATED
+F         =>  U
 
 
 T => T^P

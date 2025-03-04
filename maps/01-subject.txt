@@ -9,7 +9,6 @@ A + B		=> Y + Z
 C | D		=> X | V
 E + F		=> !V
 A + B		<=> C
-## A + B		<=> !C		# Conflict with previous line !!!
 
 =ABG
 

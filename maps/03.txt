@@ -1,7 +1,7 @@
 
 A         =>  Z
 A         =>  Z + X
-J         =>  a   # J n'apparait jamais a droite (donc false)
+J         =>  a
 C         =>  E
 !A        =>  Z
 !W        =>  Y
@@ -19,7 +19,7 @@ A ^ J     =>  X
 V ^ W     =>  X
 C | !G    =>  H
 A + !B    =>  F
-a + b + c =>  M      # Avec des minuscules
+a + b + c =>  M
 A + B + C <=> C
 A + B     <=> !N
 A         =>  !Q

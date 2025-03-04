@@ -53,8 +53,8 @@ Note: xxxxxxxxxxxxx% ✅
 ## Installation
 
 ```bash
-git clone https://github.com/xxxxxxxxxxxxxxxxxxxxxxxx/expert-system.git
-cd expert-system
+git clone https://github.com/fleuryD/42_expert_system.git
+cd 42_expert_system
 make
 ```
 

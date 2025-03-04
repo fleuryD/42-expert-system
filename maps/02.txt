@@ -1,8 +1,8 @@
 
 A         =>  F
 Z         =>  X
-M         =>  Z   # M n'apparait jamais a droite (donc false)
-N         =>  Z   # N n'apparait jamais a droite (donc false)
+M         =>  Z
+N         =>  Z
 
 !A        =>  I
 !M        =>  J
@@ -29,7 +29,7 @@ A         =>  S | T
 
 C | !G    =>  H
 A + !B    =>  F
-a + b + c =>  d      # Avec des minuscules
+a + b + c =>  d
 
 G         => S
 !P        => S
