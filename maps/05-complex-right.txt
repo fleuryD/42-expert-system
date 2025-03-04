@@ -1,0 +1,25 @@
+T         =>  !E
+F         =>  U # F n'apparait jamais a droite donc F=FALSE et U=UNDETERMINATED
+
+T => A+B+C
+T => ((D+A)+G)
+T => ((J+K)|S)|U
+T => ((J+K)|S)
+T => A+H+!I
+
+T => T|M
+T => E|N
+T => U|O
+
+T => T^P
+T => E^Q
+T => U^R
+T => !V | T
+T => !W | E
+T => !X ^ T
+T => !Y ^ E
+#T => Z + E
+
+=T
+
+?T

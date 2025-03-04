@@ -1,0 +1,78 @@
+
+# TRUE :
+T          => O
+!F         => O
+T+T        => O
+T|T        => O
+T|F        => O
+T|U        => O
+T^F        => O
+!F + !F    => O
+!F + T     => O
+T+T+T      => O
+T+!F       => O
+T+!F+T     => O
+!(T+F)     => O
+!(F+F)     => O
+!(F|F)     => O
+!(F^F)     => O
+(T + T)    => O
+T + (T)    => O
+(T)        => O
+((T))      => O
+T+(T+F|T)  => O
+T+(T|F)    => O
+(((T+T)))  => O
+(T+T+T+T+T) | (F+F)        => O
+((T+T) | (F+F)) ^ (T+F)    => O
+((T+T) | (F+F)) + (T+T)    => O
+((T+T) | (F+F)) | (F+T)    => O
+(((T+T) | (F+F))) | (F+T)  => O
+F^T + F | T => O
+(!F) => O
+T + (!F) => O
+ (F^T + F | T) + !F + T | F => O
+(F^T + F | T) + (!F) + T | F => O
+(F^T + F | T) + (!F) => O
+
+# FALSE :
+F            => U
+!T           => N
+T+F          => N
+F+F          => N
+F|F          => N
+T^T          => N
+F^F          => N
+T+!T         => N
+F+F+F+!T     => N
+!T + T       => N
+!(T+T)       => N
+!(F|T)       => N
+(F) + (T+F)  => N
+(T) + (T+F)  => N
+(T) + (F|F)  => N
+(F)          => N
+((F))        => N
+
+
+
+
+# UNDETERMINATED :
+ U     => V
+!U     => V
+F|U    => V
+T+U    => V
+(U)    => V
+((U))  => V
+T^U  => V
+U^T  => V
+U|U  => V
+
+
+
+
+
+
+=T
+
+?F

@@ -1,0 +1,11 @@
+
+T	=> A
+T+T	=> B
+T+T	=> 2 + A        # should throw an error
+F	=> D
+!F	=> E
+
+=T
+
+
+?TFABCDE

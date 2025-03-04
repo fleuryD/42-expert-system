@@ -1,0 +1,41 @@
+
+A         =>  F
+Z         =>  X
+M         =>  Z   # M n'apparait jamais a droite (donc false)
+N         =>  Z   # N n'apparait jamais a droite (donc false)
+
+!A        =>  I
+!M        =>  J
+!Z        =>  Y
+
+A+B       =>  G
+A+M       =>  P
+A+Z       =>  X
+
+A|B       =>  D
+A|M       =>  E
+A|Z       =>  F
+
+A^B       =>  S
+A^M       =>  S
+M^M       =>  S
+A^Z       =>  S
+
+
+A         =>  !P
+A         =>  S + T
+A         =>  S | T
+A         =>  S | T
+
+C | !G    =>  H
+A + !B    =>  F
+a + b + c =>  d      # Avec des minuscules
+
+G         => S
+!P        => S
+A + B     <=> C
+!A     <=> V
+
+=aBC
+
+?AFOI

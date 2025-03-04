@@ -1,0 +1,15 @@
+T         =>  !E
+F         =>  U # F n'apparait jamais a droite donc F=FALSE et U=UNDETERMINATED
+
+
+T => T^P
+T => E^Q
+T => U^R
+
+T => T^P+S
+T => E^Q+S
+T => U^R+S
+
+=T
+
+?T

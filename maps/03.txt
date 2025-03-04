@@ -1,0 +1,35 @@
+
+A         =>  Z
+A         =>  Z + X
+J         =>  a   # J n'apparait jamais a droite (donc false)
+C         =>  E
+!A        =>  Z
+!W        =>  Y
+!V        =>  Z
+A + B     =>  Y
+A + J     =>  Y
+A + C     =>  Y
+E + F     =>  V
+A | B     =>  C
+C | D     =>  X
+C | A     =>  X
+A ^ B     =>  X
+A ^ C     =>  X
+A ^ J     =>  X
+V ^ W     =>  X
+C | !G    =>  H
+A + !B    =>  F
+a + b + c =>  M      # Avec des minuscules
+A + B + C <=> C
+A + B     <=> !N
+A         =>  !Q
+A         =>  C | D
+A         =>  C + D
+A         =>  C + D + I + U
+A         =>  C + !V
+A         =>  T | !S
+
+
+=ABGP
+
+?GVXO

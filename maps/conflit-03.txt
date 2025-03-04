@@ -1,0 +1,12 @@
+T   => A+B+C
+T   => !F
+T   => !E
+F   => U
+!F  => E   # should raise error
+
+
+
+
+=T
+
+?TA
