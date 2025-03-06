@@ -1,4 +1,4 @@
-# Expert System - École 42
+# Expert System - School 42 project
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="50" height="50"/>
 
@@ -49,7 +49,7 @@ This project is part of the curriculum at 42 and aims to implement an expert sys
 ## Installation
 
 ```bash
-git clone https://github.com/fleuryD/42_expert_system.git
+git clone https://github.com/fleuryD/42-expert-system.git
 cd 42_expert_system
 make
 ```
@@ -57,11 +57,10 @@ make
 ## Usage
 
 ```bash
+./expert ./maps/02.txt	# Open a file (expert.exe on Windows)
+./expert -f [id]	# or open a file with the assistant (expert.exe on Windows)
 
-   ./expert ./maps/02.txt	# Open a file (expert.exe on Windows)
-   ./expert -f [id]	# or open a file with the assistant (expert.exe on Windows)
-
-   -i abcd		# Define the InitialFacts
+-i abcd		# Define the InitialFacts
 ```
 
 ## Requirements
