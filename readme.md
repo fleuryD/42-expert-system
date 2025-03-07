@@ -69,6 +69,6 @@ make
 - C++23 or later
 - A compiler such as `g++`
 
-## Authors
+## Author
 
 Developed by dFleury as part of the 42 school curriculum.
